@@ -6,7 +6,7 @@ public class PetAdoptionCenter {
 
     public static void doer(){
         PetShop sop = new PetShop();
-        Pet[] arr = sop.makePets();
+        sop.makePets();
         sop.showPets();
     }
 }

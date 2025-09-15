@@ -36,7 +36,10 @@ public class PetShop {
 
     String userInputType(){
         String input = scanner.nextLine();
-        if (input.equalsIgnoreCase("Cat") || input.equalsIgnoreCase("Dog") || input.equalsIgnoreCase("Lizard")){
+        if (input.equalsIgnoreCase("Cat") ||
+                input.equalsIgnoreCase("Dog") ||
+                input.equalsIgnoreCase("Lizard")){
+
             System.out.println("valid");
             return input;
         }else {
