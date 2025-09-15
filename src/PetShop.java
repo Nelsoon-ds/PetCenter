@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class PetShop {
     Pet[] inventory;
 
+    public PetShop(){
+        System.out.println("Whalecome!");
+    }
+
     public Pet[] getInventory(){
         return this.inventory;
     }
@@ -75,6 +79,7 @@ public class PetShop {
 
     public void showPets(){
         for (Pet pet : this.inventory) {
+            System.out.println("Pet number 1: ");
             System.out.println(pet.toString());
         }
 
