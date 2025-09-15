@@ -81,7 +81,7 @@ public class PetShop {
     }
 
     public void showPets(){
-        System.out.println("======Pets Registered======");
+        System.out.println("=====List of registered pets=====");
         for (Pet pet : this.inventory) {
             System.out.println("Pet number 1: ");
             System.out.println(pet.toString());
